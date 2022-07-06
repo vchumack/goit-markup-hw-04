@@ -173,7 +173,8 @@ body {
    fill: var(--main-text-color);
 }
 
-.contacts-list__link:hover {
+.contacts-list__link:hover,
+.contacts-list__link:focus {
    color: var(--accent-color);
    fill: var(--accent-color);
 }
